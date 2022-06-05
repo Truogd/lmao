@@ -1,5 +1,5 @@
 # lmao.py
-Công cụ DoS cho các yêu cầu HTTP (lấy cảm hứng từ hulk nhưng có nhiều chức năng hơn) được viết bằng Python:
+Công cụ DoS cho các yêu cầu HTTP (lấy cảm hứng từ Kaisa nhưng có nhiều chức năng hơn) được viết bằng Python:
 ![](https://raw.githubusercontent.com/Quitten/doser.py/master/doser.jpg)
 
 # Ví Dụ
