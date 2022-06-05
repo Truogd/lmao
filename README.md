@@ -16,7 +16,9 @@ python doser.py -t 999 -p 'https://targeted.site.com' -ah 'Content-Type: applica
 ```
 
 # Cách sử dụng
-usage: doser.py [-h] [-g G] [-p P] [-d D] [-ah AH] [-t T]
+Nếu bạn chọn <g> thì sẽ là : python doser.py -t 999 -g 'URL'
+Nếu bạn chọn <p> thì sẽ là : python doser.py -t 999 -p 'URL'
+Nếu bạn chọn <d> thì sẽ là : python doser.py -t 999 -d 'URL'
 
 Các tùy chọn :
 
