@@ -1,5 +1,5 @@
-# doser.py
-DoS tool for HTTP requests (inspired by hulk but has more functionalities) written in Python:
+# lmao.py
+Công cụ DoS cho các yêu cầu HTTP (lấy cảm hứng từ hulk nhưng có nhiều chức năng hơn) được viết bằng Python:
 ![](https://raw.githubusercontent.com/Quitten/doser.py/master/doser.jpg)
 
 # Ví Dụ
@@ -18,7 +18,7 @@ python doser.py -t 999 -p 'https://targeted.site.com' -ah 'Content-Type: applica
 # Cách sử dụng
 usage: doser.py [-h] [-g G] [-p P] [-d D] [-ah AH] [-t T]
 
-optional arguments:
+Các tùy chọn :
 
   -h, --help  show this help message and exit
   
