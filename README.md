@@ -27,15 +27,15 @@ Các tùy chọn :
 
   -h, --help  show this help message and exit
   
-  -g        Specify GET request. Usage: -g '< url >'
+  -g       -- Specify GET request. Usage: -g '< url >'
   
-  -p        Specify POST request. Usage: -p '< url >'
+  -p      --  Specify POST request. Usage: -p '< url >'
   
-  -d        Specify data payload for POST request
+  -d      --  Specify data payload for POST request
   
-  -ah      Specify addtional header
+  -ah     -- Specify addtional header
   
-  -t        Specify number of threads to be used
+  -t      --  Specify number of threads to be used
 
 # BY:
 Duong Quang Truong :)
