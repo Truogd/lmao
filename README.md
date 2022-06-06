@@ -36,6 +36,11 @@ Các tùy chọn :
   -ah     -- Specify addtional header
   
   -t      --  Specify number of threads to be used
+  
+ 
+  Nếu không chạy được file gõ :
+   ```chmod +x lmao.py```
+  
 
 # BY:
 Duong Quang Truong :)
