@@ -111,12 +111,12 @@ class SendPOSTThread(threading.Thread):
 # check if the site stop responding and alert
 
 def main(argv):
-	parser = argparse.ArgumentParser(description='Sending unlimited amount of requests in order to perform DoS attacks. Written by Barak Tawily')
-	parser.add_argument('-g', help='Specify GET request. Usage: -g \'<url>\'')
-	parser.add_argument('-p', help='Specify POST request. Usage: -p \'<url>\'')
-	parser.add_argument('-d', help='Specify data payload for POST request', default=None)
-	parser.add_argument('-ah', help='Specify addtional header/s. Usage: -ah \'Content-type: application/json\' \'User-Agent: Doser\'', default=None, nargs='*')
-	parser.add_argument('-t', help='Specify number of threads to be used', default=500, type=int)
+	parser = argparse.ArgumentParser(description='Gửi số lượng yêu cầu không giới hạn để thực hiện các cuộc tấn công DoS - duongquangtruong')
+	parser.add_argument('-g', help='Chỉ định yêu cầu GET. Usage: -g \'<url>\'')
+	parser.add_argument('-p', help='Chỉ định yêu cầu ĐĂNG. Usage: -p \'<url>\'')
+	parser.add_argument('-d', help='Chỉ định trọng tải dữ liệu cho yêu cầu ĐĂNG', default=None)
+	parser.add_argument('-ah', help='Chỉ định / s tiêu đề bổ sung. Usage: -ah \'Content-type: application/json\' \'User-Agent: Doser\'', default=None, nargs='*')
+	parser.add_argument('-t', help='Chỉ định số lượng chủ đề sẽ được sử dụng', default=500, type=int)
 	args = parser.parse_args()
 
 	global url, payload, additionalHeaders
